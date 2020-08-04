@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>English for kids</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+</head>
+<body>
+<header>
+    <div class="hamburger-menu-spans" id="menu-toggle">
+        <div id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div id="cross">
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+    <div class="container-switch">
+        <form class="toggle" id="checkbox">
+            <input type="radio" id="choice1" name="choice" value="creative">
+            <label for="choice1">Play</label>
+            <input type="radio" id="choice2" name="choice" value="productive">
+            <label for="choice2">Train</label>
+            <div id="flap"><span class="content">productive</span></div>
+        </form>
+    </div>
+    <div class="menu-block" id="menu-block">
+        <div class="menu-block-container">
+            <ul>
+                <li class="mainpage-link">Main Page</li>
+                <li class="category-link">Action (set A)</li>
+                <li class="category-link">Action (set B)</li>
+                <li class="category-link">Action (set C)</li>
+                <li class="category-link">Adjective</li>
+                <li class="category-link">Animal (set A)</li>
+                <li class="category-link">Animal (set B)</li>
+                <li class="category-link">Clothes</li>
+                <li class="category-link">Emotion</li>
+            </ul>
+        </div>
+    </div>
+    </header>
+    <span class="category-label" id="category-label"></span>
+    <article id = 'main' name = "main_page">
+        <div class="container">
+            <div class="navigation" id = 'navigation'>
+            </div>
+        </div>
+    </article>
+    
+    <div id="category">
+        <div class="asnwers" id="answers"></div>
+        <div id="category-cards"></div>
+        <button type="button" id="startbtn" class="startbtn">Start</button>
+    </div>
+    <div id="success-smile" class="success-smile">
+        <img src="assets/success.jpg">
+        <span id="result-good">Well Done!</span>
+    </div>
+    <div id="failure-smile" class="failure-smile">
+        <img src="assets/failure.jpg">
+        <span id="result-bad"></span>
+    </div>
+    
+    <script  src="script.js"></script>
+
+</body>
+</html>
